@@ -1,0 +1,62 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#main {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.parallax-inner{
+display:table-cell;
+position:relative;
+vertical-align: middle;
+}
+#bio{
+    padding;50px;
+    text-align:center;
+    background-color:lightgreen;
+}
+.line{
+    height:6px;
+    background-color: aqua;
+    width:70px;
+    margin: 8px auto;
+}
